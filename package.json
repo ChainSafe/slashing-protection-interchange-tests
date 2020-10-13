@@ -1,5 +1,5 @@
 {
-  "name": "slashing-protection-interchange-tests",
+  "name": "@chainsafe/slashing-protection-interchange-tests",
   "version": "4.0.0",
   "description": "Wrapper for slashing-protection-interchange-tests repo",
   "author": "ChainSafe Systems",
