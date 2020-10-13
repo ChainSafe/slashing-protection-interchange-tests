@@ -1,0 +1,23 @@
+{
+  "name": "slashing-protection-interchange-tests",
+  "version": "4.0.0",
+  "description": "Wrapper for slashing-protection-interchange-tests repo",
+  "author": "ChainSafe Systems",
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ChainSafe/slashing-protection-interchange-tests/issues"
+  },
+  "homepage": "https://github.com/ChainSafe/slashing-protection-interchange-tests#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test.js",
+    "trigger-publish": "npm version patch && git push origin master && git push --tags"
+  },
+  "repository": "git@github.com:ChainSafe/slashing-protection-interchange-tests.git",
+  "keywords": [
+    "ethereum",
+    "eth2",
+    "beacon",
+    "blockchain"
+  ]
+}
